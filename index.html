@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Starbucks</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo.png" alt="logo da Starbucks" class="logo">
+    </header>
+
+    <main>
+        <div class="circulo"></div>
+
+        <section class="conteudo">
+            <div class="textos">
+                <h1>Não é apenas Café, é <span>Starbucks</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dolor iure quam eum quisquam culpa
+                    necessitatibus vitae, non repellat, laboriosam esse minus. Repudiandae est, quibusdam nihil quae
+                    voluptates dolorum. Laboriosam!</p>
+                <button type="button">Clique aqui!</button>
+            </div>
+
+            <div class="imagem">
+                <img src="img/img1.png" class="imagem-copo" alt="Copo de café Starbucks em destaque">
+            </div>
+        </section>
+
+        <nav class="menu">
+            <img onclick="trocarCor('#017143'); trocaImagem('img/img1.png')" class="botao-menu" src="img/thumb1.png" alt="Opção de bebida verde">
+            <img onclick="trocarCor('#eb7495'); trocaImagem('img/img2.png')" class="botao-menu" src="img/thumb2.png" alt="Opção de bebida rosa">
+            <img onclick="trocarCor('#d752b1'); trocaImagem('img/img3.png')" class="botao-menu" src="img/thumb3.png" alt="Opção de bebida roxa">
+        </nav>
+    </main>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
